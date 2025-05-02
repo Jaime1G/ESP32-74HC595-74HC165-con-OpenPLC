@@ -17,9 +17,9 @@ Todo integrado con el entorno **OpenPLC**.
 - **DS** → GPIO12
 - **SH_CP** → GPIO22
 - **ST_CP** → GPIO23
-- **QH** → GPIO15
-- **SH_CP** → GPIO2
 
 ### 74HC165 (entradas)
 
 - **ST_CP** → GPIO0
+- **QH** → GPIO15
+- **SH_CP** → GPIO2
