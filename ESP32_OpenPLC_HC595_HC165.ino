@@ -12,21 +12,21 @@ void sketch_setup()
 void sketch_loop()
 {
   int DO0 = 0;
-  sr.set(DO0, RELE_0);
+  sr.set(DO0, RELE_1);
   int DO1 = 1;
-  sr.set(DO1, RELE_1);
+  sr.set(DO1, RELE_2);
   int DO2 = 2;
-  sr.set(DO2, RELE_2);
+  sr.set(DO2, RELE_3);
   int DO3 = 3;
-  sr.set(DO3, RELE_3);
+  sr.set(DO3, RELE_4);
   int DO4 = 4;
-  sr.set(DO4, RELE_4);
+  sr.set(DO4, RELE_5);
   int DO5 = 5;
-  sr.set(DO5, RELE_5);
+  sr.set(DO5, RELE_6);
   int DO6 = 6;
-  sr.set(DO6, RELE_6);
+  sr.set(DO6, RELE_7);
   int DO7 = 7;
-  sr.set(DO7, RELE_7);
+  sr.set(DO7, RELE_8);
 
   uint8_t inputVal = sr165.read();
 
