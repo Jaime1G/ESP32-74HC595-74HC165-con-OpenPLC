@@ -6,7 +6,7 @@ Autor: Jaime Iglesias
 ## Descripción
 
 Este proyecto utiliza una placa ESP32 WROOM para gestionar entradas y salidas digitales utilizando registros de desplazamiento:
-- **74HC595** para salidas (RELE_0 a RELE_7)
+- **74HC595** para salidas (RELE_1 a RELE_8)
 - **74HC165** para entradas (INT_1 a INT_8)
 
 Todo integrado con el entorno **OpenPLC**.
